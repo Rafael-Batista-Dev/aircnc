@@ -1,14 +1,62 @@
-import React from "react";
+import React, { Component } from "react";
+import logo from "../../../assets/img/logo.svg";
+
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
-  return (
-    <ul>
-      <Link to="/">Home</Link>
-      <Link to="/missao">Missão</Link>
-      <Link to="/servicos">Serviços</Link>
-    </ul>
-  );
-};
+class Navbar extends Component {
+  state = {
+    isOpen: false,
+  };
+  handleClick = () => {
+    this.setState({
+      isOpen: !this.state.isOpen,
+    });
+  };
+
+  render() {
+    return (
+      <nav>
+        <div className="logoBtn">
+          <div className="logo">
+            <a className="logo" href="/">
+              <img src={logo} alt="logo" />
+            </a>
+          </div>
+
+          <div className="btn" onClick={this.handleClick}>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+          </div>
+        </div>
+        <div className="menu">
+          <ul className={this.state.isOpen ? "showNav" : "undifined"}>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li className="borderleft">
+              <a href="/sobre">Sobre Nós</a>
+            </li>
+            <li className="borderleft">
+              <a href="/servicos">Serviços</a>
+            </li>
+            <li className="borderleft">
+              <a href="/contato">Contato</a>
+            </li>
+            <li className="borderleft">
+              <i className="iconwesome fa fa-search" aria-hidden="true"></i>
+            </li>
+          </ul>
+        </div>
+
+        <div className="buttons">
+          <button className="btn-select">Pt-br</button>
+          <button className="btn-select">Ajuda?</button>
+          <button className="btn-register">Registrar</button>
+        </div>
+      </nav>
+    );
+  }
+}
 
 export default Navbar;
