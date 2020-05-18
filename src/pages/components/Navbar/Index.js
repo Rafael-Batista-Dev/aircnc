@@ -44,7 +44,16 @@ class Navbar extends Component {
               <a href="/contato">Contato</a>
             </li>
             <li className="borderleft">
-              <i className="iconwesome fa fa-search" aria-hidden="true"></i>
+              <div class="searchbar">
+                <input
+                  className="search-input"
+                  type="text"
+                  placeholder="Pesquisar..."
+                />
+                <a href="!#" className="search-icon">
+                  <i class="fa fa-search"></i>
+                </a>
+              </div>
             </li>
           </ul>
         </div>
