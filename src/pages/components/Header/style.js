@@ -19,11 +19,12 @@ export const Span = styled.span`
   color: #424242;
 `;
 
-export const Box = styled.div`
-  width: 21%;
+export const BoxLeft = styled.div`
+  width: 49%;
   float: left;
   font-size: 0;
-  padding: 10px;
+  margin-left: 7px;
+  padding: 5px;
   transition: all 0.5s ease;
   position: relative;
   &:hover > div {
@@ -31,10 +32,10 @@ export const Box = styled.div`
   }
 `;
 
-export const BoxLeft = styled.div`
-  width: 45%;
-  float: left;
-  padding: 10px;
+export const Box = styled.div`
+  width: 23.7%;
+  float: right;
+  padding: 5px;
   font-size: 0;
   transition: all 0.5s ease;
   position: relative;
@@ -45,11 +46,12 @@ export const BoxLeft = styled.div`
 
 export const Image = styled.img`
   width: 100%;
+  border-radius: 8px;
 `;
 
 export const Button = styled.button`
   position: absolute;
-  top: 90%;
+  top: 91.5%;
   left: 10%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
