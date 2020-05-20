@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import { BrowserRouter, Route } from "react-router-dom";
 
 import Navbar from "./pages/components/Navbar/Index";
@@ -8,6 +9,7 @@ import SobreNos from "./pages/SobreNos";
 import Servico from "./pages/Servico";
 import Contato from "./pages/Contato";
 import Login from "./pages/Login";
+import Profile from "./pages/Profile";
 
 export default class Routers extends Component {
   render() {
@@ -20,6 +22,7 @@ export default class Routers extends Component {
         <Route path="/servico" component={Servico} />
         <Route path="/contato" component={Contato} />
         <Route path="/login" component={Login} />
+        <Route path="/profile" component={Profile} />
       </BrowserRouter>
     );
   }

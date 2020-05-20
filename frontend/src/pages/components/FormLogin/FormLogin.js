@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import api from "../../../services/api";
 import {
   FormLoginSection,
@@ -12,6 +13,7 @@ import {
 import logo from "../../../assets/img/logo.svg";
 
 function FormLogin() {
+  let history = useHistory();
   const [email, setEmail] = useState("");
 
   async function handleSubmit(event) {
@@ -20,6 +22,7 @@ function FormLogin() {
     const response = await api.post("/sessions", { email });
 
     const { _id } = response.data;
+    history.push("/profile");
 
     localStorage.setItem("user", _id);
   }

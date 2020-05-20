@@ -44,6 +44,9 @@ class Navbar extends Component {
               <a href="/contato">Contato</a>
             </li>
             <li className="borderleft">
+              <a href="/prifile">Perfil</a>
+            </li>
+            <li className="borderleft">
               <div class="searchbar">
                 <input
                   className="search-input"
