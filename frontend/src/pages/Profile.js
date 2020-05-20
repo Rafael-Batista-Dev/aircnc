@@ -1,9 +1,10 @@
 import React from "react";
+import ProfileConteiner from "./components/ProfileConteiner/ProfileConteiner";
 
 function Profile() {
   return (
     <div>
-      <h1>Profile</h1>
+      <ProfileConteiner />
     </div>
   );
 }
