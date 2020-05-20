@@ -45,9 +45,19 @@ export const FormInput = styled.input`
   font-weight: bold;
   margin-bottom: 1rem;
   border-radius: 4px;
+  color: #5a5c5f;
   height: 45px;
   padding: 0 15px;
+  outline-style: none;
   font-size: 16px;
+
+  &:hover {
+    transition: all 0.4s ease;
+    border-width: 1px;
+    border-style: solid;
+    outline-style: none;
+    border-color: #ff385c;
+  }
 `;
 
 export const FormButton = styled.button`
@@ -61,6 +71,7 @@ export const FormButton = styled.button`
   padding: 0 20px;
   font-size: 16px;
   background: #ff385c;
+  outline-style: none;
   color: #fff;
   box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
     0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
@@ -68,6 +79,7 @@ export const FormButton = styled.button`
     transition: all 0.4s ease;
     color: #ff385c;
     background: #fff;
+    outline-style: none;
     border-width: 1px;
     border-style: solid;
     border-color: #ff385c;
