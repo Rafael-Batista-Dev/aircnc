@@ -61,7 +61,9 @@ class Navbar extends Component {
         <div className="buttons">
           <button className="btn-select">Pt-br</button>
           <button className="btn-select">Ajuda?</button>
-          <button className="btn-register">Registrar</button>
+          <Link to="/login" className="btn-register">
+            Entrar
+          </Link>
         </div>
       </nav>
     );
