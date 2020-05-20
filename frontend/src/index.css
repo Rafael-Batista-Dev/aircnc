@@ -50,7 +50,7 @@ h5 {
 
 .btn {
   border: 1px solid #666363;
-  border-radius: 4px;
+  border-radius: 4 px;
   display: inline-block;
   cursor: pointer;
 }
@@ -62,7 +62,7 @@ h5 {
 }
 
 .menu {
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0px 0px 0.2em rgb(153, 151, 151);
   -webkit-box-shadow: 0px 0px 0.2em rgb(153, 151, 151);
   -moz-box-shadow: 0px 0px 0.2em rgb(153, 151, 151);
@@ -95,8 +95,8 @@ ul li a {
   color: #1b1a1a;
   font-size: 14px;
   font-weight: 700;
-  padding: 15px;
-  border-radius: 24px;
+  padding: 10px;
+  border-radius: 4px;
   border: none;
   cursor: pointer;
   transition: all 0.4s ease;
@@ -117,7 +117,6 @@ ul li a {
   font-size: 14px;
   font-weight: 700;
   padding: 10px;
-  border-radius: 24px;
   border: none;
   cursor: pointer;
 }
@@ -214,7 +213,6 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
   color: #666363;
   text-decoration: none;
 }

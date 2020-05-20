@@ -62,7 +62,14 @@ export const FormButton = styled.button`
   font-size: 16px;
   background: #ff385c;
   color: #fff;
+  box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
+    0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
   &:hover {
-    background: #f13255;
+    transition: all 0.4s ease;
+    color: #ff385c;
+    background: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff385c;
   }
 `;

@@ -56,9 +56,8 @@ export const Button = styled.button`
   top: 91.5%;
   left: 10%;
   transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
   padding: 10px 20px;
-  background: #fff;
-  color: #000;
   font-size: 15px;
   text-align: center;
   display: block;
@@ -67,14 +66,19 @@ export const Button = styled.button`
   padding: 0 20px;
   height: 40px;
   line-height: 40px;
-  border-radius: 8px;
-  border: 1px solid #666363;
+  border-radius: 4px;
+  border: none;
+  background: #ff385c;
+  color: #fff;
+  box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
+    0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: all 0.4s ease;
   &:hover {
-    background: #fff;
+    transition: all 0.4s ease;
     color: #ff385c;
-    box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
-      0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff385c;
   }
 `;
