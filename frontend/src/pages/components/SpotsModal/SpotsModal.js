@@ -1,4 +1,7 @@
 import React, { useState, useMemo } from "react";
+import { useHistory } from "react-router-dom";
+import api from "../../../services/api";
+
 import Modal from "react-modal";
 import camera from "../../../assets/img/camera.svg";
 
@@ -19,6 +22,8 @@ import {
 
 Modal.setAppElement("#root");
 function SpotsCadModal() {
+  let history = useHistory();
+
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [thumbnail, setThumbnail] = useState(null);
   const [company, setCompany] = useState("");
@@ -29,7 +34,21 @@ function SpotsCadModal() {
     return thumbnail ? URL.createObjectURL(thumbnail) : null;
   }, [thumbnail]);
 
-  function handleSubmit() {}
+  async function handleSubmit() {
+    const data = new FormData();
+    const user_id = localStorage.getItem("user");
+
+    data.append("thumbnail", thumbnail);
+    data.append("company", company);
+    data.append("techs", techs);
+    data.append("price", price);
+
+    await api.post("/spots", data, {
+      headers: { user_id },
+    });
+
+    history.push("/profile");
+  }
 
   return (
     <>
@@ -96,7 +115,7 @@ function SpotsCadModal() {
                 value={price}
                 onChange={(event) => setPrice(event.target.value)}
               />
-              <ButtonSubmit>Cadastrar</ButtonSubmit>
+              <ButtonSubmit type="submit">Cadastrar</ButtonSubmit>
             </FormRight>
           </form>
         </ModalBody>
