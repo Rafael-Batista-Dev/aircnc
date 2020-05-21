@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import {
   ProfileSection,
@@ -14,7 +16,11 @@ import {
 
 import api from "../../../services/api";
 
-function ProfileConteiner() {
+const ProfileConteiner = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const [spots, setSpots] = useState([]);
 
   useEffect(() => {
@@ -37,7 +43,7 @@ function ProfileConteiner() {
         <SpotUl>
           {spots.map((spot) => (
             <Card>
-              <SpoLi key={spot._id}>
+              <SpoLi data-aos="fade-in" key={spot._id}>
                 <SpoHeader
                   style={{ backgroundImage: `url(${spot.thumbnail_url})` }}
                 />
@@ -55,6 +61,6 @@ function ProfileConteiner() {
       </ProfileSection>
     </>
   );
-}
+};
 
 export default ProfileConteiner;

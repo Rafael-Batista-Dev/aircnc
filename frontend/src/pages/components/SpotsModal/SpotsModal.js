@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { useHistory } from "react-router-dom";
+
 import api from "../../../services/api";
 
 import Modal from "react-modal";
@@ -21,6 +22,7 @@ import {
 } from "./style";
 
 Modal.setAppElement("#root");
+
 function SpotsCadModal() {
   let history = useHistory();
 
