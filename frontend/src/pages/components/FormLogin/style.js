@@ -47,7 +47,7 @@ export const FormInput = styled.input`
   border-radius: 4px;
   color: #5a5c5f;
   height: 45px;
-  padding: 0 15px;
+  padding: 0 10px;
   outline-style: none;
   font-size: 16px;
 
