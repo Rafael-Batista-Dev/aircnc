@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import {
   ProfileSection,
   ProfileTitle,
@@ -8,6 +9,7 @@ import {
   SpoStrong,
   SpoSpan,
   Card,
+  SpotButtom,
 } from "./style";
 
 import api from "../../../services/api";
@@ -48,6 +50,8 @@ function ProfileConteiner() {
             </Card>
           ))}
         </SpotUl>
+
+        <SpotButtom>+</SpotButtom>
       </ProfileSection>
     </>
   );
