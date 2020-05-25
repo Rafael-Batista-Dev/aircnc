@@ -42,7 +42,9 @@ export default function SpotsList({ tech }) {
           <View style={styles.listItem}>
             <ImageLoad
               style={styles.thumbnail}
-              source={{ uri: item.thumbnail_url }}
+              source={{
+                uri: item.thumbnail_url.replace("localhost", "192.168.1.8"),
+              }}
             />
             <Text Text style={styles.company}>
               {item.company}
