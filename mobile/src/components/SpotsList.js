@@ -4,14 +4,16 @@ import {
   Text,
   StyleSheet,
   FlatList,
-  Image,
   TouchableOpacity,
 } from "react-native";
+
+import ImageLoad from "react-native-image-placeholder";
 
 import api from "../services/api";
 
 export default function SpotsList({ tech }) {
   const [spots, setSpots] = useState([]);
+  const thumbnailUrl = "";
 
   useEffect(() => {
     async function loadSpots() {
@@ -38,14 +40,13 @@ export default function SpotsList({ tech }) {
         showsHorizontalScrollIndicator={false}
         renderItem={({ item }) => (
           <View style={styles.listItem}>
-            <Image
+            <ImageLoad
               style={styles.thumbnail}
-              source={{
-                uri:
-                  "http://192.168.1.8:3333/files/cowork-02-1589921266518.jpg",
-              }}
+              source={{ uri: item.thumbnail_url }}
             />
-            <Text style={styles.company}>{item.company}</Text>
+            <Text Text style={styles.company}>
+              {item.company}
+            </Text>
             <Text style={styles.price}>
               {item.price ? `R${item.price} / dia` : "GRATUITO"}
             </Text>
@@ -110,6 +111,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 4,
     marginTop: 15,
+    marginBottom: 15,
   },
 
   textButton: {

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import SpotsList from "../components/SpotsList";
 
 import {
-  View,
   SafeAreaView,
   Image,
   AsyncStorage,
@@ -44,6 +43,6 @@ const styles = StyleSheet.create({
     height: 40,
     resizeMode: "contain",
     alignSelf: "center",
-    marginTop: 30,
+    marginTop: 50,
   },
 });
