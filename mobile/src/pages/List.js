@@ -9,12 +9,14 @@ import {
   AsyncStorage,
   StyleSheet,
   ScrollView,
+  TouchableOpacity,
+  Text,
   Alert,
 } from "react-native";
 
 import logo from "../assets/logo.png";
 
-export default function List() {
+export default function List({ navigation }) {
   const [techs, setTechs] = useState([]);
 
   useEffect(() => {
@@ -41,14 +43,26 @@ export default function List() {
     });
   });
 
+  function handleLogout() {
+    AsyncStorage.clear();
+    alert("Você está desconectado!");
+
+    navigation.navigate("Login");
+  }
+
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={logo} />
+
       <ScrollView>
         {techs.map((tech) => (
           <SpotsList key={tech} tech={tech} />
         ))}
       </ScrollView>
+
+      <TouchableOpacity style={styles.button} onPress={handleLogout}>
+        <Text style={styles.buttonText}>Sair</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   );
 }
@@ -64,5 +78,18 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     marginTop: 40,
     marginBottom: 10,
+  },
+
+  button: {
+    height: 36,
+    backgroundColor: "#ccc",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  buttonText: {
+    color: "#fff",
+    fontWeight: "bold",
+    fontSize: 16,
   },
 });
