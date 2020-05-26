@@ -64,7 +64,7 @@ export default function Book({ navigation }) {
           </TouchableOpacity>
 
           <TouchableOpacity onPress={handleCancel} style={styles.cancelButton}>
-            <Text style={styles.cancelText}>Solicitar reserva</Text>
+            <Text style={styles.cancelText}>Cancelar reserva</Text>
           </TouchableOpacity>
         </View>
       </SafeAreaView>
@@ -88,15 +88,15 @@ const styles = StyleSheet.create({
   },
 
   session: {
-    padding: 10,
-    borderWidth: 1,
-    borderRadius: 2,
+    padding: 20,
+    borderWidth: 0.2,
+    borderRadius: 4,
     borderColor: "#ddd",
     borderBottomWidth: 0,
-    shadowColor: "#000",
+    shadowColor: "#222",
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.8,
-    shadowRadius: 2,
+    shadowOpacity: 0.9,
+    shadowRadius: 4,
     elevation: 1,
     marginLeft: 5,
     marginRight: 5,

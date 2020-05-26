@@ -7,11 +7,6 @@ export const ProfileSection = styled.div`
   overflow: hidden;
 `;
 
-export const ProfileTitle = styled.h1`
-  margin-top: 6rem;
-  margin-bottom: 2rem;
-`;
-
 export const SpotUl = styled.ul`
   margin: auto;
   list-style: none;
@@ -91,4 +86,38 @@ export const SpotButtom = styled.button`
     border-style: solid;
     border-color: #ff385c;
   }
+`;
+
+export const Notifications = styled.ul`
+  width: 98%;
+  margin: auto;
+  margin-top: 6rem;
+  list-style: none;
+  padding: 20px;
+`;
+
+export const NotifiLi = styled.li`
+  font-size: 16px;
+  line-height: 24px;
+`;
+
+export const ButtonAccept = styled.button`
+  margin-right: 20px;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  background: #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #84c870;
+`;
+
+export const ButtonReject = styled.button`
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  background: #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #e55e5e;
 `;
