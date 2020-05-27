@@ -49,16 +49,16 @@ class Navbar extends Component {
         <div className="menu">
           <ul className={this.state.isOpen ? "showNav" : "undifined"}>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li className="borderleft">
-              <a href="/sobre">Sobre Nós</a>
+              <Link to="/sobre">Sobre Nós</Link>
             </li>
             <li className="borderleft">
-              <a href="/servicos">Serviços</a>
+              <Link to="/servicos">Serviços</Link>
             </li>
             <li className="borderleft">
-              <a href="/contato">Contato</a>
+              <Link to="/contato">Contato</Link>
             </li>
             <li className="borderleft">
               <div class="searchbar">
@@ -67,9 +67,9 @@ class Navbar extends Component {
                   type="text"
                   placeholder="Pesquisar..."
                 />
-                <a href="!#" className="search-icon">
+                <Link to="!#" className="search-icon">
                   <i class="fa fa-search"></i>
-                </a>
+                </Link>
               </div>
             </li>
           </ul>
