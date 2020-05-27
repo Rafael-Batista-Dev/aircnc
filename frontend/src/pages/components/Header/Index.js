@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <PortfolioSection data-aos="fade-down">
       <PortfolioTitle>
-        <Span>Como é trabalhar em um coworking?</Span>
+        <Span>Como é trabalhar em uma Startup?</Span>
       </PortfolioTitle>
 
       <div className="box">

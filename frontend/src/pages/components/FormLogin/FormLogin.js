@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import api from "../../../services/api";
 import {
@@ -12,7 +12,14 @@ import {
 } from "./style";
 import logo from "../../../assets/img/logo.svg";
 
-function FormLogin() {
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+const FormLogin = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   let history = useHistory();
   const [email, setEmail] = useState("");
 
@@ -28,9 +35,14 @@ function FormLogin() {
   }
 
   return (
-    <FormLoginSection>
-      <img src={logo} alt="aircnc" />
-      <FormLoginContent>
+    <FormLoginSection style={{ overflowX: "hidden" }}>
+      <img
+        style={{ marginTop: "2rem" }}
+        data-aos="fade-left"
+        src={logo}
+        alt="aircnc"
+      />
+      <FormLoginContent data-aos="fade-right">
         <FormDescription>
           Ofereça <strong>spots</strong> para programadores e encontre{" "}
           <strong>Talentos</strong> para sua empresa.
@@ -51,6 +63,6 @@ function FormLogin() {
       </FormLoginContent>
     </FormLoginSection>
   );
-}
+};
 
 export default FormLogin;

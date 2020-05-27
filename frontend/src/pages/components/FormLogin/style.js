@@ -13,7 +13,8 @@ export const FormLoginSection = styled.div`
 export const FormLoginContent = styled.div`
   width: 25%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
   border-radius: 8px;
   padding: 30px;
   box-shadow: 0px 0px 0.4em #666;

@@ -96,8 +96,8 @@ const ProfileConteiner = () => {
         </Notifications>
         <SpotUl>
           {spots.map((spot) => (
-            <Card>
-              <SpoLi data-aos="fade-in" key={spot._id}>
+            <Card data-aos="fade-up">
+              <SpoLi key={spot._id}>
                 <SpoHeader
                   style={{ backgroundImage: `url(${spot.thumbnail_url})` }}
                 />

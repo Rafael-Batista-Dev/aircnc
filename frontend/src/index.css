@@ -23,7 +23,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: #545658;
+  color: #525151;
 }
 
 * {
@@ -33,6 +33,7 @@ h5 {
 
 .logoBtn {
   border: none;
+  list-style: none;
 }
 
 .logo img {
@@ -92,32 +93,22 @@ ul li a {
 
 .btn-register {
   background: #fff;
-  color: #1b1a1a;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 10px;
-  border-radius: 4px;
+  color: #666363;
+  padding: 15px;
+  margin-right: 1.6rem;
   border: none;
   cursor: pointer;
-  transition: all 0.4s ease;
-  box-shadow: 0px 0px 0.2em rgb(153, 151, 151);
-  -webkit-box-shadow: 0px 0px 0.2em rgb(153, 151, 151);
-  -moz-box-shadow: 0px 0px 0.2em rgb(153, 151, 151);
-}
-
-.btn-register:hover {
-  box-shadow: 0px 0px 0.3em #666;
-  -webkit-box-shadow: 0px 0px 0.3em #666;
-  -moz-box-shadow: 0px 0px 0.3em #666;
 }
 
 .btn-select {
+  margin-right: 10px;
   background: #fff;
-  color: #1b1a1a;
+  color: #666363;
   font-size: 14px;
   font-weight: 700;
   padding: 10px;
   border: none;
+  outline-style: none;
   cursor: pointer;
 }
 .borderleft {

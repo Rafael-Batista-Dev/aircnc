@@ -16,7 +16,7 @@ export const PortfolioTitle = styled.h1`
 export const Span = styled.span`
   font-size: 28px;
   font-weight: bold;
-  color: #424242;
+  color: #525151;
 `;
 
 export const BoxLeft = styled.div`
