@@ -10,13 +10,13 @@ export const PortfolioSection = styled.div`
 export const PortfolioTitle = styled.h1`
   padding: 10px;
   margin-top: 6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 `;
 
-export const Span = styled.span`
+export const Span = styled.h1`
   font-size: 28px;
   font-weight: bold;
-  color: #525151;
+  color: #696969;
 `;
 
 export const BoxLeft = styled.div`

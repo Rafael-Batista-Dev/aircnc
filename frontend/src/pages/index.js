@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 
 import Header from "./components/Header/Index";
-import Sobre from "./components/Sobre/Index";
+import Beneficios from "./components/Beneficios/index";
+import Footer from "./components/Footer/Index";
 
 export default class Index extends Component {
   render() {
     return (
       <div>
         <Header />
-        <Sobre />
+        <Beneficios />
+        <Footer />
       </div>
     );
   }
