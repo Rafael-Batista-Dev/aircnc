@@ -4,7 +4,7 @@ export const PlanSection = styled.div`
   width: 50%;
   height: 500px;
   margin: auto;
-  margin-top: -3rem;
+  margin-top: 7rem;
   margin-bottom: 2rem;
   border-radius: 8px;
   box-shadow: 0px 0px 1em #d3d3d3;

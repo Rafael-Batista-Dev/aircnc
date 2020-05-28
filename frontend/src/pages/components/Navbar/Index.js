@@ -52,10 +52,10 @@ class Navbar extends Component {
               <Link to="/">Home</Link>
             </li>
             <li className="borderleft">
-              <Link to="/sobre">Sobre Nós</Link>
+              <Link to="/sobre-nos">Sobre Nós</Link>
             </li>
             <li className="borderleft">
-              <Link to="/servicos">Serviços</Link>
+              <Link to="/plano">Planos</Link>
             </li>
             <li className="borderleft">
               <Link to="/contato">Contato</Link>

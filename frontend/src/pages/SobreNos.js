@@ -1,9 +1,13 @@
 import React from "react";
 
-export default function SobreNos() {
+import Sobre from "./components/Sobre/Index";
+
+function SobreNos() {
   return (
-    <div>
-      <h1>Sobre</h1>
-    </div>
+    <>
+      <Sobre />
+    </>
   );
 }
+
+export default SobreNos;
