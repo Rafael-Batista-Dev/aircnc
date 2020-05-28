@@ -44,9 +44,12 @@ export default class ItemSlider extends Component {
     var settings = {
       dots: true,
       infinite: true,
-      speed: 400,
       slidesToShow: 4,
       slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
     };
