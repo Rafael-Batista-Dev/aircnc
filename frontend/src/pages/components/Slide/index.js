@@ -1,26 +1,43 @@
 import React, { Component } from "react";
-import "react-image-gallery/styles/css/image-gallery.css";
-import ImageGallery from "react-image-gallery";
+import { SliderSection, Box, Image } from "./style";
+import Slider from "react-slick";
 
-class Header extends Component {
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+export default class ItemSlider extends Component {
   render() {
-    const images = [
-      {
-        original: "https://picsum.photos/id/1018/1000/600/",
-        thumbnail: "https://picsum.photos/id/1018/250/150/",
-      },
-      {
-        original: "https://picsum.photos/id/1015/1000/600/",
-        thumbnail: "https://picsum.photos/id/1015/250/150/",
-      },
-      {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
-      },
-    ];
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 400,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+    };
+    return (
+      <SliderSection>
+        <Slider {...settings}>
+          <Box>
+            <Image src="img/cowork-01.jpg" alt="" />
+          </Box>
 
-    return <ImageGallery items={images} autoPlay={true} slideDuration={1000} />;
+          <Box>
+            <Image src="img/cowork-02.jpg" alt="" />
+          </Box>
+
+          <Box>
+            <Image src="img/cowork-03.jpg" alt="" />
+          </Box>
+
+          <Box>
+            <Image src="img/cowork-04.jpg" alt="" />
+          </Box>
+
+          <Box>
+            <Image src="img/cowork-05.jpg" alt="" />
+          </Box>
+        </Slider>
+      </SliderSection>
+    );
   }
 }
-
-export default Header;

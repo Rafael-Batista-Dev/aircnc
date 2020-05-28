@@ -9,8 +9,8 @@ export const PortfolioSection = styled.div`
 
 export const PortfolioTitle = styled.h1`
   padding: 10px;
-  margin-top: 6rem;
-  margin-bottom: 1rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
 `;
 
 export const Span = styled.h1`
