@@ -30,6 +30,14 @@ p {
   color: #888;
 }
 
+.icon {
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-top: 4px;
+  float: left;
+  color: #ff385c;
+}
+
 * {
   margin: 0;
   padding: 0;

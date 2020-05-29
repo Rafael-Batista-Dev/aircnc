@@ -46,7 +46,7 @@ const Sobre = () => {
           </AboutRight>
 
           <AboutLeft data-aos="fade-left">
-            <SubTitle>Medidas Provisórias do Governo</SubTitle>
+            <SubTitle>Inove como uma startup! </SubTitle>
 
             <AboutDesc>
               A aircnc permite à liderança do G2000 criar uma cultura de

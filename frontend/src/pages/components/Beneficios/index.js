@@ -1,8 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
 import checkmarkLogo from "../../../assets/img/checkmark.png";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 import animationData from "../../../assets/img/office-2.json";
 import {
@@ -12,7 +10,6 @@ import {
   BenefitDesc,
   Logo,
   Title,
-  SubTitle,
 } from "./style";
 
 const beneficios = () => {

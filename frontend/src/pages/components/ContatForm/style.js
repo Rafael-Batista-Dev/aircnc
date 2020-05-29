@@ -1,25 +1,39 @@
 import styled from "styled-components";
 
-export const FormLoginSection = styled.div`
+export const ContactSection = styled.div`
   margin: auto;
-  max-width: 450;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-item: center;
+  width: 80%;
   margin-top: 8rem;
 `;
 
-export const FormLoginContent = styled.div`
-  width: 25%;
-  margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+export const DadosContent = styled.div`
+  width: 50%;
+  float: left;
+  padding: 30px;
+`;
+
+export const FormContent = styled.div`
+  width: 38%;
+  float: right;
   border-radius: 8px;
   padding: 30px;
   box-shadow: 0px 0px 1em #d3d3d3;
   -webkit-box-shadow: 0px 0px 1em #d3d3d3;
   -moz-box-shadow: 0px 0px 1em #d3d3d3;
+`;
+
+export const List = styled.p`
+  padding: 10px;
+  font-size: 16px;
+  color: #888;
+  line-height: 1.5;
+  text-align: justify;
+`;
+
+export const Title = styled.h2`
+  font-size: 28px;
+  margin-bottom: 2rem;
+  color: #696969;
 `;
 
 export const FormDescription = styled.p`
@@ -43,7 +57,7 @@ export const FormLabel = styled.label`
 
 export const FormInput = styled.input`
   border: 1px solid #ddd;
-  font-weight:   font-weight: 500;
+  font-weight: 500;
   margin-bottom: 1rem;
   border-radius: 4px;
   color: #5a5c5f;

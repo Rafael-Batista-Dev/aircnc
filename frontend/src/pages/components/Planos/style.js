@@ -79,3 +79,34 @@ export const StatInfo = styled.div`
   display: flex;
   justify-content: space-between;
 `;
+
+export const MoreButtom = styled.button`
+  position: fixed;
+  top: 90%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  width: 15%;
+  margin: 0 auto;
+  line-height: 40px;
+  border-radius: 4px;
+  border: none;
+  background: #ff385c;
+  color: #fff;
+  outline-style: none;
+  box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
+    0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  &:hover {
+    transition: all 0.4s ease;
+    color: #ff385c;
+    background: #fff;
+    outline-style: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff385c;
+  }
+`;

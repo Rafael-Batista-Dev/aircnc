@@ -8,6 +8,7 @@ import {
   CardLines,
   CardLine,
   StatInfo,
+  MoreButtom,
 } from "./style";
 
 const planos = () => {
@@ -92,6 +93,14 @@ const planos = () => {
             </div>
           </div>
         </div>
+        <MoreButtom>
+          Mais planos{" "}
+          <i
+            style={{ marginLeft: "10px" }}
+            class="fa fa-arrow-right"
+            aria-hidden="true"
+          ></i>
+        </MoreButtom>
       </PlanSection>
     </>
   );

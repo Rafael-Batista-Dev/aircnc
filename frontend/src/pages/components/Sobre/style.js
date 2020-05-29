@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AboutSection = styled.div`
   width: 80%;
   margin: auto;
-  margin-top: 4.5rem;
+  margin-top: 4rem;
   padding: 50px 0;
   overflow: hidden;
 `;

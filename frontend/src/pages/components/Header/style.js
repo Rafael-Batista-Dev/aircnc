@@ -47,8 +47,9 @@ export const Box = styled.div`
 export const Image = styled.img`
   width: 100%;
   border-radius: 8px;
-  box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
-    0 1px 7px 0 rgba(0, 0, 0, 0.01), 0 3px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 1em #d3d3d3;
+  -webkit-box-shadow: 0px 0px 1em #d3d3d3;
+  -moz-box-shadow: 0px 0px 1em #d3d3d3;
 `;
 
 export const Button = styled.button`
