@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import Header from "./components/Header/Index";
 import Slide from "./components/Slide/Index";
 import Beneficios from "./components/Beneficios/Index";
-import Footer from "./components/Footer/Index";
 
 export default class Index extends Component {
   render() {
@@ -12,7 +11,6 @@ export default class Index extends Component {
         <Header />
         <Slide />
         <Beneficios />
-        <Footer />
       </div>
     );
   }
