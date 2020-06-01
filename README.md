@@ -9,7 +9,7 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Rafael-Batista-Dev/contabiling">
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rafael-Batista-Dev/contabiling">
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rafael-Batista-Dev/coworking">
 	<img alt="node-current" src="https://img.shields.io/node/v/package">
 <p>
 
@@ -25,7 +25,7 @@
 Esta aplicação é baseada na 9º semana omnistack, ao qual tem como objetivo o cadastro de spots de techs para que a galera possa fazer a rezerva dos spots através do App que utiliza tecnologia websocket(socket io), que trata a aprovação das reservas em tempo real. 
 
 <p align="center">
-  <img width="70%" alt="exitus" src="https://github.com/Rafael-Batista-Dev/coworking/blob/master/aircnc.gif"> 
+  <img width="80%" alt="exitus" src="https://github.com/Rafael-Batista-Dev/coworking/blob/master/aircnc.gif"> 
 <p>
 <p>&nbsp;&nbsp;</p>
 ## :loudspeaker: Technologies
