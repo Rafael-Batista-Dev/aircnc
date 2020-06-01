@@ -1,16 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<center>
+<h4 align="center"> 
+	👨‍💻 Coworking | Aircnc
+</h4>
+<h4 align="center"> 
+	💻 Plataforma de coworking para reserva de spost de tecnologias 💻
+</h4>
 
-## Available Scripts
+<p align="center">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Rafael-Batista-Dev/contabiling">
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rafael-Batista-Dev/contabiling">
+	<img alt="node-current" src="https://img.shields.io/node/v/package">
+<p>
 
-In the project directory, you can run:
+<p align="center">
+  Projeto |
+  Tecnologias |
+  Licença
+</p>
+<p>&nbsp;&nbsp;</p>
 
-### `yarn start`
+## 💻 Coworking | Aircnc
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Esta aplicação é baseada na 9º semana omnistack, ao qual tem como objetivo o cadastro de spots de techs para que a galera possa fazer a rezerva dos spots através do App que utiliza tecnologia websocket(socket io), que trata a aprovação das reservas em tempo real. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center">
+  <img width="70%" alt="exitus" src="https://github.com/Rafael-Batista-Dev/coworking/blob/master/aircnc.gif"> 
+<p>
+<p>&nbsp;&nbsp;</p>
+## :loudspeaker: Technologies
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://github.com/axios/axios)
+
+
+## Console
 
 ### Backend `yarn dev`
 
@@ -18,46 +46,30 @@ You will also see any lint errors in the console.
 
 ### mobile `yarn start`
 
-## Ip para Mobile
+## Alterar o ip para Mobile
 
 Mude o ip de acordo com o ip da sua maquina nos arquivos api.js e list.js.
 
-### `yarn eject`
+✔ Aos
+✔ Expo
+✔ Axios
+✔ ReactJS
+✔ MongoDB
+✔ Socket-io
+✔ React-lottie
+✔ React-router-dom
+✔ Styled-components
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 🔗 Minhas redes sociais
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Rafael batista – [@Linkedin](https://www.linkedin.com/in/rafael-batista-dev/)
+</br>
+✉️ E-mail – rafaelbatista.sth@gmail.com
+</br>
+:octocat: Github –[https://github.com/](https://github.com/Rafael-Batista-Dev)
+</br>
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+</p>
