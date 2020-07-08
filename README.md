@@ -36,6 +36,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://github.com/axios/axios)
+- [MongoDB](https://www.mongodb.com/)
 
 
 ## Console
