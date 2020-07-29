@@ -3,7 +3,7 @@
     <img alt="aircnc" width= '30%' title="#aircnc" src="https://github.com/Rafael-Batista-Dev/aircnc/blob/master/mobile/assets/icon.png" />
 </h1>
 <h4 align="center"> 
-	💻 Plataforma de coworking para reserva de spost de tecnologias 💻
+	💻 Plataforma de Aircnc para reserva de spost de tecnologias 💻
 </h4>
 
 <p align="center">
@@ -18,14 +18,13 @@
   Tecnologias |
   Licença
 </p>
-<p>&nbsp;&nbsp;</p>
 
-## 💻 Coworking | Aircnc
+## 💻 Aircnc
 
 Esta aplicação é baseada na 9º semana omnistack, ao qual tem como objetivo o cadastro de spots de techs para que a galera possa fazer a rezerva dos spots através do App que utiliza tecnologia websocket(socket io), que trata a aprovação das reservas em tempo real. 
 
 <p align="center" width= '100%'>
-  <img width="100%" alt="aircnc" src="https://github.com/Rafael-Batista-Dev/coworking/blob/master/aircnc.gif"> 
+  <img width="100%" alt="aircnc" src="https://github.com/Rafael-Batista-Dev/aircnc/blob/master/aircnc.gif"> 
 <p>
 
 ## 🛠 Tecnologias
