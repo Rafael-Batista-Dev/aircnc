@@ -1,6 +1,6 @@
 <center>
 <h1 align="center">
-    <img alt="aircnc" width= '30%' title="#aircnc" src="https://github.com/Rafael-Batista-Dev/coworking/blob/master/logo.png" />
+    <img alt="aircnc" width= '30%' title="#aircnc" src="https://github.com/Rafael-Batista-Dev/aircnc/blob/master/mobile/assets/icon.png" />
 </h1>
 <h4 align="center"> 
 	💻 Plataforma de coworking para reserva de spost de tecnologias 💻
@@ -50,7 +50,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🚀 Como rodar este projeto
 
-Este projeto considerar apenas em uma parte:
+Este projeto está dividido em 3 partes:
 
 ### Pré-requisitos
 
