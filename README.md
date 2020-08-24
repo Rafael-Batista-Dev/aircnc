@@ -29,7 +29,7 @@ Esta aplicação é baseada na 9º semana omnistack, ao qual tem como objetivo o
 
 ## 🛠 Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas foram utilizadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
